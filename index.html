@@ -2,7 +2,27 @@
 <html lang="en">
 <head>
   <!-- Primary Meta Tags -->
-<title>DminZ</title>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DminZ</title>
+    <link rel="icon" href="https://scontent.fcmb4-2.fna.fbcdn.net/v/t39.30808-6/549338667_122096592669036248_7135003584033369695_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGzfmfvyVf0pNji8Tiwn3nQZVDgvCE58ullUOC8ITny6VQXq7_NavFSPaXYd3Ts4DaYaI9xt4pZhZeFULqSDOxg&_nc_ohc=mMEwBIOzwBIQ7kNvwFLXv2j&_nc_oc=Adl5pHL03hnK51XyhZRxLKBqrosyHaVHSDTPabJDjCrYj43ChC3RB0PU8mvxzfx3Xl0&_nc_zt=23&_nc_ht=scontent.fcmb4-2.fna&_nc_gid=mFpSJynPAjUQa0d9Aj9K-w&oh=00_AfadU8AXwFQ9bn97aCKop7lYEcfc8DK0cKgu04o5V1dPrA&oe=68D40147" type="image/png">
+    
+    <style>
+        .dynamic-image {
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .dynamic-image:hover {
+            transform: scale(1.05) perspective(1000px) rotateY(5deg);
+        }
+    </style>
+</head>
+<body>
+
+    
+
 <meta name="title" content="Nethara Dilmin Dias Gunawardhana | Web Designer Sri Lanka">
 <meta name="description" content="I’m Nethara (DMINZ), a 19-year-old web designer from Avissawella, Sri Lanka. I create fast, beautiful, and user-friendly websites for small businesses, with expertise in UI/UX and front-end development.">
 
@@ -14,20 +34,20 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://yourwebsite.com/">
+<meta property="og:url" content="https://netharagunawardahana-cmyk.github.io/dias1/">
 <meta property="og:title" content="Nethara Dilmin Dias Gunawardhana | Web Designer Sri Lanka">
 <meta property="og:description" content="Professional portfolio of Nethara (DMINZ), a UI/UX-focused web designer from Sri Lanka. Explore my skills, projects, and contact info.">
 <meta property="og:image" content="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://yourwebsite.com/">
+<meta property="twitter:url" content="https://netharagunawardahana-cmyk.github.io/dias1/">
 <meta property="twitter:title" content="Nethara Dilmin Dias Gunawardhana | Web Designer Sri Lanka">
 <meta property="twitter:description" content="Portfolio of Nethara (DMINZ), a Sri Lankan web designer specializing in UI/UX and front-end development.">
 <meta property="twitter:image" content="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200">
 
 <!-- Canonical URL -->
-<link rel="canonical" href="https://yourwebsite.com/">
+<link rel="canonical" href="https://netharagunawardahana-cmyk.github.io/dias1/">
 
 <!-- Mobile Friendly -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,7 +57,7 @@
 <meta name="googlebot" content="index, follow">
 
 <!-- Favicon -->
-<link rel="icon" href="https://yourwebsite.com/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://netharagunawardahana-cmyk.github.io/dias1/" type="image/x-icon">
 <script>
   const grid = document.querySelector('.photo-grid');
 grid.addEventListener('wheel', (e) => {
@@ -72,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
   "name": "Nethara Dilmin Dias Gunawardhana",
   "alternateName": "DMINZ",
   "jobTitle": "Web Designer & Front-End Developer",
-  "url": "https://yourwebsite.com/",
+  "url": "https://netharagunawardahana-cmyk.github.io/dias1/",
   "sameAs": [
     "https://www.facebook.com/dminz0/",
     "https://www.instagram.com/dminz4/",
@@ -86,6 +106,16 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 </script>
   <style>
+.dynamic-image {
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.dynamic-image:hover {
+  transform: scale(1.05) perspective(1000px) rotateY(5deg);
+}
+
 .photo-section {
   padding: 60px 20px;
   text-align: center;
@@ -288,20 +318,87 @@ button:hover {
   transform: scale(1.06);
 }
 
-/* Social links */
+/* Container for social links */
+.social {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Social Link Style */
 .social a {
+  position: relative;
   display: inline-block;
-  margin-right: 15px;
+  padding: 14px 24px;
   color: #fff;
   text-decoration: none;
-  padding: 10px 18px;
-  border-radius: 12px;
-  background: rgba(255,255,255,0.05);
-  transition: background 0.3s ease, transform 0.3s ease;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px); /* glass effect */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  overflow: hidden;
+  transition: transform 0.4s ease, background 0.4s ease, box-shadow 0.4s ease;
 }
+
+/* 3D Hover + Glow + Scale */
 .social a:hover {
-  background: rgba(255,255,255,0.2);
-  transform: translateY(-4px);
+  transform: translateY(-6px) scale(1.08) rotateZ(-1.5deg);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.5), 0 0 15px rgba(255,255,255,0.2);
+}
+
+/* Shimmer/Glow Effect */
+.social a::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(120deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 60%);
+  transform: rotate(25deg) translateX(-100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.social a:hover::before {
+  opacity: 1;
+  animation: shimmer 1s ease forwards;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: rotate(25deg) translateX(-100%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: rotate(25deg) translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* Optional: small particle sparkle animation */
+.social a span.sparkle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  border-radius: 50%;
+  top: 10%;
+  left: 20%;
+  opacity: 0;
+  animation: sparkleAnim 1.5s infinite;
+}
+
+@keyframes sparkleAnim {
+  0%,100% { transform: translate(0,0) scale(0); opacity: 0; }
+  50% { transform: translate(10px, -10px) scale(1); opacity: 1; }
 }
 
 /* Footer */
@@ -331,6 +428,8 @@ footer {
 }
 </style>
   <style>
+
+
 /* General body style */
 body {
   margin: 0;
@@ -611,7 +710,7 @@ footer {
             <div class="logo">DM</div>
             <div>
               <h1>N D D Gunawardhana</h1>
-              <p>aka DMINZ • Web Designer</p>
+              <p> <b>&#128511;DMINZ <b>&trade;</p></b>
             </div>
           </div>
 
@@ -741,10 +840,6 @@ footer {
           </div>
         </div>
       </section>
-
-      <footer>
-        <p>© <span id="year"></span> N D D Gunawardhana (DMINZ) </p>
-      </footer>
     </main>
   </div>
 
@@ -794,7 +889,9 @@ footer {
 <div class="bubble" style="width: 60px; height: 60px; left: 30%; animation-duration: 30s;"></div>
 
 <!-- Paste new Photo Section here -->
+<br>
 <section class="photo-section">
+
   <h2>Forward always forward</h2>
   <div class="photo-grid">
     <div class="photo-card"><img src="https://scontent.fcmb11-1.fna.fbcdn.net/v/t51.75761-15/496110255_18019909265700729_8329811326195608131_n.webp?stp=dst-jpg_tt6&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHNU8oNX8ky34K4uOTGLngcaronElq0dJxquicSWrR0nNHH0G2aRfSrUFUwKiTo6PW4DkCBK4Zor_rWrcZ-AuYu&_nc_ohc=AHarEVfzUswQ7kNvwGL2hWZ&_nc_oc=AdkXl83AItndKWh3AFIbsK0zEnwfYq31M1LgaDgQg9c6DWqK3GddLwpKTgjj4jhDRNs&_nc_zt=23&_nc_ht=scontent.fcmb11-1.fna&_nc_gid=CCIFdYsTsvK7t6WN0yHm8A&oh=00_AfaNY44urciUk3fuh70IwyfOG7_2_wtsLnQrRVxXhgpN9Q&oe=68D371FA" alt="Photo 1">
@@ -830,4 +927,10 @@ footer {
 
 <section class="photo-section">
   
+<footer>
+        <p>© <span id="year"></span> N D D Gunawardhana (DMINZ) </p>
+      </footer>
+
+
+
 </html>
